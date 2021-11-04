@@ -1,0 +1,625 @@
+:root {
+    --color_body: #E5E5E5;
+    --color_wrap: #fff;
+    --color_buttom: #FF7400;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.mAuto {
+    margin: 0 auto;
+}
+.pt80 {
+    padding-top: 80px;
+}
+.bsbb {
+    box-sizing: border-box;
+}
+.d-flex {
+    display: flex;
+}
+body {
+    background-color: var(--color_body);
+}
+.wrap {
+    width: 1440px;
+    background-color: var(--color_wrap);
+}
+.header {
+    width: 1440px;
+    height: 800px;
+    background: url("images/hero.png") no-repeat;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+    justify-content: start;
+    align-items: start;
+    position: relative;
+
+}
+.header__logo img {
+    padding-top: 50px;
+    padding-left: 165px;
+    width: 100px;
+    height: 68px;
+}
+.header__main {
+    padding-top: 74px;
+    padding-left: 200px;
+    width: 500px;
+    height: 64px;
+}
+.nav {
+    justify-content: space-around;
+}
+.header__line {
+    margin: 54px 10px 0 10px;
+    width: 2px;
+    height: 64px;
+    background-color: white;
+}
+.header__phone {
+    padding-top: 55px;
+    padding-left: 10px;
+    width: 300px;
+    height: 64px;
+}
+.header__phone {
+    width: 130px;
+    height: 64px;
+    display: block;
+    justify-content: start;
+    align-items: start;
+}
+.box__up {
+    justify-content: space-between;
+}
+.header__phone__nomber {
+    padding-top: 5px;
+}
+.header__buttom {
+    margin-top: 64px;
+    margin-left: 15px;
+    width: 157px;
+    height: 47px;
+    border-radius: 2px;
+    background-color: var(--color_buttom);
+    line-height: 50px;
+    text-align: center;
+}
+.welcome {
+    width: 556px;
+    height: 179px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    top: 322px; left: 175px;
+}
+.welcome__good {
+    height: 57px;
+    margin-top: -10px;
+    font-family: Tinos;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 57px;
+    color: #D67E35;
+}
+.welcome__restourant{
+    height: 85px;
+    margin-top: -15px;
+    font-family: Tinos;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 92px;
+    color: #D67E35;
+}
+.welcome__home-best-food {
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.linetext1, .linetext3 {
+    width: 61px;
+    height: 3px;
+    border-radius: 1.5px;
+    background-color: #ffffff;
+}
+.linetext2 {
+    height: 25px;
+    padding: 0 10px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.viewmenu {
+    width: 137px;
+    height: 47px;
+    margin-top: 5px;
+    margin-left: 210px;
+    background-color: #FF7400;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+.position_window {
+    width: 1110px;
+    height: 328px;
+    justify-content: space-between;
+    position: absolute;
+    top: 693px;
+    left: 168px;
+}
+.position_window_box1,
+.position_window_box2,
+.position_window_box3 {
+    width: 349px;
+    height: 328px;
+    text-align: center;
+    background-color: #FFFFFF;
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+}
+.imglogofood {
+margin-top: 35px;
+}
+.firsttext {
+    margin-top: 10px;
+    font-family: Tinos;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    color: #2C2C2C;
+}
+.spancolor {
+    margin-top: 10px;
+    font-family: Tinos;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    color: #BC9060;
+}
+.lasttext {
+    margin-top: 25px;
+    font-family: Tinos;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    color: #656363;
+}
+.historybox {
+    margin-top: 350px;
+    width: 1440px;
+    height: auto;
+    background-color: var(--color_wrap);
+    justify-content: space-between;
+}
+.historybox__content {
+    margin-left: 166px;
+    margin-top: 20px;
+    margin-bottom: 200px;
+    width: 444px;
+    text-align: center;
+}
+.history__content_restouran {
+    font-family: Tinos;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 54px;
+    color: #000000;
+}
+.h2text {
+    font-family: Tinos;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 54px;
+    color: #D67E34;
+}
+.history__conten_tlist {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #656363;
+}
+.history__content_data {
+    justify-content: center;
+    align-items: center;
+}
+.data__food {
+    margin-right: 40px;
+    margin-left: 40px;
+}
+.data__drinks_nombers,
+.data__food_nombers,
+.data__snack_nombers {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 54px;
+    color: #BC9060;
+}
+.data__drinks_list,
+.data__food_list,
+.data__snack_list {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+.historybox__colage {
+    width: 550px;
+    margin-right: 160px;
+    position: relative;
+}
+.historybox__colage_img0 {
+    width: 212px;
+    height: 164px;
+    background-color: #FFE8D0;
+    position: absolute;
+    z-index: 0;
+    top: 40px;
+    right: 40px;
+}
+.historybox__colage_img1 {
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    left: 210px;
+}
+.historybox__colage_img2 {
+    position: absolute;
+    z-index: 2;
+    top: 40px;
+}
+.historybox__colage_img3 {
+    position: absolute;
+    z-index: 3;
+    top: 200px;
+    right: 0;
+}
+.orderline {
+    width: 1440px;
+    height: 357px;
+    justify-content: space-between;
+    align-items: center;
+    background: url("images/hero.png") rgba(0, 0, 0, 0.85);
+}
+.orderline__call {
+    margin-left: 165px;
+}
+.orderline__call_text1 {
+    font-family: Tinos;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 52px;
+    line-height: 60px;
+    color: #D67E34;
+}
+.orderline__call_text2 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+.orderline__buttom {
+    margin-right: 205px;
+    width: 157px;
+    height: 47px;
+    background-color: #FF7400;
+    font-family: Open Sans;
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 49px;
+    color: #FFFFFF;
+}
+.ourdishes {
+    width: 1400px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.ourdishes__border {
+    width: 1129px;
+    height: 679px;
+}
+.ourdishes__name {
+    margin-bottom: 100px;
+    font-family: Tinos;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    font-size: 54px;
+    line-height: 62px;
+    color: #000000;
+}
+.ourdishes__name_color {
+    font-family: Tinos;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 54px;
+    line-height: 62px;
+    color: #D67E34;
+}
+.ourdishes__image {
+    justify-content: space-between;
+    align-items: end;
+}
+.ourdishes__image_logo {
+    width: 445px;
+    height: 474px;
+}
+.ourdishes__image_menu {
+    height: 474px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.ourdishes__image_menu1,
+.ourdishes__image_menu2,
+.ourdishes__image_menu3 {
+    justify-content: start;
+    align-items: center;
+}
+.imgfirst {
+    width: 210px;
+    height: 140px;
+}
+.cheklist {
+    font-family: Tinos;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    color: #000000;
+}
+.ourmenubar {
+    width: 1440px; height: 1034px;
+    background: url("images/barfoto.png");
+    position: relative;
+}
+.ourmenubar__h2menu {
+    font-family: Tinos;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 54px;
+    line-height: 62px;
+    color: #FFFFFF;
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    top: 100px;
+    left: 580px;
+}
+.ourmenubar__product {
+    width: 1110px;
+    height: 510px;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 298px;
+    left: 165px;
+}
+.ourmenubar__product_item {
+    width: 350px;
+    height: 510px;
+    background-color: var(--color_wrap);
+    position: relative;
+}
+.item_recomendation {
+    position: absolute;
+    width: 124px;
+    height: 36px;
+    background-color: #D67E34;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+}
+.item_prisefoto {
+    width: 225px;
+    height: 225px;
+    background: url("images/abstract.png");
+    border-radius: 50%;
+    position: absolute;
+    top: 80px;
+    left: 60px;
+}
+.item_price {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #D67E34;
+    border: 7px solid #FFFFFF;
+    border-radius: 50%;
+    top: 200px;
+    right: 60px;
+    font-family: Cookie;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 100px;
+    text-align: center;
+     color: #FFFFFF;
+}
+.item_productname {
+    position: absolute;
+    bottom: 153px;
+    left: 81px;
+    font-family: Tinos;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    color: #000000;
+}
+.item_discription {
+    width: 226px;
+    height: 37px;
+    position: absolute;
+    bottom: 99px;
+    left: 62px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+.item_buttom {
+    position: absolute;
+    width: 220px;
+    height: 50px;
+    left: 65px;
+    bottom: 29px;
+    background-color: #D67E34;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.commentaries {
+    width: 1440px;
+    height: 550px;
+    background-color: var(--color_body);
+    position: relative;
+}
+.comment__text {
+    position: absolute;
+    width: 920px;
+    height: 52px;
+    top: 104px;
+    left: 260px;
+    font-family: Open Sans;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #000000;
+}
+.comment_face {
+    position: absolute;
+    top: 231px;
+    left: 661px;
+    width: 100px;
+    height: 100px;
+    background: url("images/beard.png");
+    border-radius: 50%;
+}
+.comment_who {
+    position: absolute;
+    top: 348px;
+    left: 661px;
+    width: 119px;
+    height: 27px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+.comment_nameuser {
+    position: absolute;
+    top: 384px;
+    left: 675px;
+    width: 86px;
+    height: 27px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+.galereadishes {
+    width: 1440px;
+    height: 800px;
+    background-color: var(--color_wrap);
+    position: relative;
+}
+.galereadishes__slider_cliker1 {
+    position: absolute;
+    top: 221px;
+    left: 0;
+    width: 30px;
+    height: 100px;
+    background-color: red;
+    z-index: 1;
+}
+.galereadishes__slider_cliker2 {
+    position: absolute;
+    top: 221px;
+    right: 0;
+    width: 30px;
+    height: 100px;
+    background-color: red;
+    z-index: 3;
+}
+.galereadishes__slider_fotos {
+    position: absolute;
+    top: 221px;
+    left: 166px;
+    width: 1108px;
+    height: 578px;
+    justify-content: space-between;
+    z-index: 2;
+}
+.slider_fotos_box1,
+.slider_fotos_box2 {
+    width: 554px;
+    height: 578px;
+    flex-wrap: wrap;
+    column-gap: 28px;
+}
+.ourcooks {
+    width: 1440px;
+    height: 800px;
+    background-color: var(--color_wrap);
+    position: relative;
+}
+.ourcooks__faces {
+    position: absolute;
+    top: 249px;
+    left: 165px;
+    width: 1110px;
+    justify-content: space-between;
+}
+.faces1, .faces2, .faces3 {
+    width: 350px;
+    height: 462px;
+}
+.footerbar {
+    width: 1440px;
+    height: 732px;
+    background: url("images/footerbar.png");
+}

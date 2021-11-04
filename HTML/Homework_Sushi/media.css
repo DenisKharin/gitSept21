@@ -1,0 +1,159 @@
+@media screen and (max-width: 320px) {
+    .wrap {
+        width: 320px;
+    }
+    .header {
+        height: 800px;
+        background: url("./imagesIphone/heroimage.png");
+
+    }
+    .header__logo img {
+        padding-top: 20px;
+        padding-left: 14px;
+        width: 30px;
+        height: 21.77px;
+    }
+    .welcome {
+        width: 276px;
+        height: 119px;
+        top: 303px;
+        left: 22px;
+    }
+    .welcome__good {
+        width: 236px;
+        height: 34px;
+        font-size: 25px;
+        line-height: 34px;
+    }
+    .welcome__restourant {
+        margin-top: -5px;
+        margin-left: -20px;
+        width: 276px;
+        height: 85px;
+        font-size: 35px;
+        line-height: 46px;
+    }
+    .welcome__home-best-food {
+        margin-top: -40px;
+        margin-left: -40px;
+    }
+    .linetext1, .linetext3 {
+        width: 20px;
+        margin-top: -5px;
+    }
+    .linetext2 {
+        padding: 0 5px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .viewmenu {
+        margin-left: 50px;
+    }
+    .position_window {
+        width: 298px;
+        height: auto;
+        flex-direction: column;
+        left: 15px;
+    }
+    .position_window_box1,
+    .position_window_box2,
+    .position_window_box3 {
+        width: 290px;
+        height: 276px;
+        margin-bottom: 14px;
+    }
+    .imglogofood {
+        margin-top: 5px;
+    }
+    .firsttext, .spancolor {
+        margin-top: 0;
+        font-size: 26px;
+    }
+    .lasttext {
+        margin-top: 10px;
+        font-size: 22px;
+    }
+    .historybox {
+        margin-top: 800px;
+        width: 300px;
+        flex-direction: column;
+    }
+    .historybox__content {
+        margin-left: 10px;
+        width: 300px;
+    }
+    .history__content_restouran,
+    .h2text {
+        font-size: 32px;
+    }
+    .history__content_data {
+       flex-direction: column;
+    }
+    .data__food {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .historybox__colage {
+        margin-top: -170px;
+        width: 300px;
+        left: 10px;
+    }
+    .historybox__colage_img0 {
+        width: 114px;
+        height: 84px;
+        right: 40px;
+    }
+    .historybox__colage_img1 img {
+        width: 137px;
+        height: 221px;
+    }
+    .historybox__colage_img1 {
+        left: 97px;
+    }
+    .historybox__colage_img2 img {
+        width: 125px;
+        height: 154px;
+    }
+    .historybox__colage_img2 {
+
+    }
+    .historybox__colage_img3 img {
+        width: 137px;
+        height: 205px;
+    }
+    .historybox__colage_img3 {
+        top: 130px;
+        right: 10px;
+    }
+    .orderline {
+        margin-top: 400px;
+        width: 320px;
+        height: 357px;
+        flex-direction: column;
+    }
+    .orderline__call {
+        margin-left: 5px;
+    }
+    .orderline__call_text1 {
+        margin-top: 20px;
+        font-size: 28px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .orderline__call_text2 {
+        text-align: center;
+    }
+    .orderline__buttom {
+        margin-right: 15px;
+        margin-bottom: 40px;
+    }
+    .ourdishes {
+        width: 320px;
+    }
+    .ourdishes__border {
+
+    }
+    .ourdishes__name {
+
+    }
+}
