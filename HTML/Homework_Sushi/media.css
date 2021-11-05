@@ -149,11 +149,153 @@
     }
     .ourdishes {
         width: 320px;
+        padding-top: 50px;
     }
     .ourdishes__border {
+        width: 320px;
+    }
+    .ourdishes__name,
+    .ourdishes__name_color {
+        margin-bottom: 50px;
+        font-size: 32px;
+    }
+    .ourdishes__image {
+        flex-direction: column;
+    }
+    .ourdishes__image_logo {
+        width: 320px;
+        margin-right: 125px;
+        margin-bottom: 10px;
+    }
+    .ourdishes__image_menu {
+        width: 320px;
+    }
+    .ourdishes__image_menu1,
+    .ourdishes__image_menu2,
+    .ourdishes__image_menu3 {
+        margin: 10px 10px 8px 10px;
+    }
+    .imgfirst img {
+        width: 150px;
+        height: 123px;
+    }
+    .cheklist {
+        margin-left: 10px;
+        font-size: 22px;
+    }
+    .ourmenubar {
+        margin-top: 285px;
+        width: 320px;
+    }
+    .ourmenubar__h2menu {
+        left: 25px;
+    }
+    .ourmenubar__product {
+        width: 290px;
+        display: block;
+        left: 13px;
+    }
+    .ourmenubar__product_item1,
+    .ourmenubar__product_item2,
+    .ourmenubar__product_item3 {
+        width: 290px;
+        height: 510px;
+        margin-bottom: 230px;
+    }
+    .item_prisefoto {
+        left: 30px;
+    }
+    .item_price {
+        right: 30px;
+    }
+    .item_productname {
+        left: 50px;
+    }
+    .item_discription {
+        left: 32px;
+    }
+    .item_buttom {
+        left: 35px;
+    }
+    .commentaries {
+        width: 320px;
+    }
+    .comment__text {
+        width: 310px;
+        left: 5px;
+        top: 20px;
+    }
+    .comment_face {
+        left: 100px;
+        top: 320px;
+    }
+    .comment_who {
+        top: 420px;
+        left: 100px;
+    }
+    .comment_nameuser {
+        top: 450px;
+        left: 115px;
+    }
+    .galereadishes {
+        width: 320px;
+        height: auto;
+    }
+    .galereadishes__slider_cliker1,
+    .galereadishes__slider_cliker2 {
+        z-index: 1;
+    }
+    .galereadishes__slider_fotos {
+        width: 300px;
+        left: 9px;
+        display: block;
+        margin-bottom: 10px;
+    }
+    .slider_fotos_box1 {
+        width: 300px;
+        display: block;
+        margin-bottom: 10px;
+    }
+    .slider_fotos_box2 {
+        margin-top: 335px;
+        width: 300px;
+        display: block;
+        margin-bottom: 10px;
+    }
+    .slider_fotos_box1 img,
+    .slider_fotos_box2 img {
+        width: 300px;
+        height: 300px;
+    }
+    .ourcooks {
+        width: 320px;
+        height: auto;
+    }
+    .ourcooks__name,
+    .ourcooks__name_color {
+        margin-top: 1890px;
+        font-size: 32px;
+    }
+    .ourcooks__faces {
+        top: 200px;
+        left: 9px;
+        width: 300px;
+        display: block;
 
     }
-    .ourdishes__name {
-
+    .faces1 img, .faces2 img,
+    .faces3 img {
+        width: 300px;
+        height: 400px;
+    }
+    .faces2 {
+        margin: -50px 0;
+    }
+    .footerbar {
+        margin-top: 1295px;
+        width: 320;
+        height: 556px;
+        background: url("./imagesIphone/footer-iPhone.png");
+        box-sizing: border-box;
     }
 }

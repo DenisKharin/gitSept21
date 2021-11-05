@@ -420,7 +420,9 @@ margin-top: 35px;
     top: 298px;
     left: 165px;
 }
-.ourmenubar__product_item {
+.ourmenubar__product_item1,
+.ourmenubar__product_item2,
+.ourmenubar__product_item3 {
     width: 350px;
     height: 510px;
     background-color: var(--color_wrap);
@@ -606,6 +608,24 @@ margin-top: 35px;
     height: 800px;
     background-color: var(--color_wrap);
     position: relative;
+}
+.ourcooks__name {
+    margin-bottom: 100px;
+    font-family: Tinos;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    font-size: 54px;
+    line-height: 62px;
+    color: #000000;
+}
+.ourcooks__name_color {
+    font-family: Tinos;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 54px;
+    line-height: 62px;
+    color: #D67E34;
 }
 .ourcooks__faces {
     position: absolute;
