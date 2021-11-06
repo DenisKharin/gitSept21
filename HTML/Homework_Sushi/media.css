@@ -60,7 +60,7 @@
         width: 276px;
         height: 119px;
         top: 303px;
-        left: 22px;
+        left: 45px;
     }
     .welcome__good {
         width: 236px;
@@ -236,14 +236,16 @@
     .ourmenubar__product {
         width: 290px;
         display: block;
-        left: 13px;
+        left: 15px;
     }
-    .ourmenubar__product_item1,
-    .ourmenubar__product_item2,
-    .ourmenubar__product_item3 {
+    .ourmenubar__product_item1 {
         width: 290px;
         height: 510px;
         margin-bottom: 230px;
+    }
+    .ourmenubar__product_item2,
+    .ourmenubar__product_item3 {
+        display: none;
     }
     .item_prisefoto {
         left: 30px;
@@ -286,7 +288,7 @@
     }
     .galereadishes__slider_cliker1,
     .galereadishes__slider_cliker2 {
-        z-index: 1;
+        display: none;;
     }
     .galereadishes__slider_fotos {
         width: 300px;
