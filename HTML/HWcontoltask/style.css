@@ -1,0 +1,280 @@
+:root {
+    --color_body: #E5E5E5;
+    --color_wrap: #fff;
+    --color_header_footer_bg: #0F2438;
+    --color_buttom_buy: #005BB9;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.mAuto {
+    margin: 0 auto;
+}
+.bsbb {
+    box-sizing: border-box;
+}
+.d-flex {
+    display: flex;
+}
+.d-block {
+    display: block;
+}
+.JC-C {
+    justify-content: center;
+}
+.JC-SB {
+    justify-content: space-between;
+}
+.JC-SA {
+    justify-content: space-around;
+}
+.AI-C {
+    align-items: center;
+}
+.FD-C {
+    flex-direction: column;
+}
+.posRel {
+    position: relative;
+}
+.posAbs {
+    position: absolute;
+}
+.fontNav {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.h16t10 {
+    height: 16px;
+    top: 10px;
+}
+body {
+    background-color: var(--color_body);
+}
+.wrap {
+    width: 1920px;
+    background-color: var(--color_wrap);
+}
+/*beginning HEADER block*/
+.header {
+    width: 1920px;
+    height: 196px;
+    background-color: var(--color_wrap);
+}
+/*beginning HEADER__NAV block*/
+.header__nav {
+    width: 1920px;
+    height: 36px;
+    background-color: var(--color_header_footer_bg);
+}
+.header__nav_geo img {
+    width: 14.06px; height: 20px;
+}
+.header__nav_geo2 img {
+    width: 7.03px; height: 7.03px;
+}
+.header__nav_geo {
+    top: 4px;
+    left: 285.97px;
+}
+.header__nav_geo2 {
+    top: 1px;
+    left: 289.25px;
+}
+.header__nav_city {
+    width: 128px;
+    left: 307px;
+}
+.header__nav_info {
+    width: 87px;
+    left: 485px;
+}
+.header__nav_info_str {
+    width: 10px;
+    height: 5.51px;
+    left: 570px;
+    top: 5px;
+}
+.header__nav_cooperation {
+    width: 109px;
+    left: 617px;
+}
+.header__nav_cooperation_str {
+    width: 10px;
+    height: 5.51px;
+    left: 721px;
+    top: 5px;
+}
+.header__nav_menu_delivery {
+    width: 64px;
+    left: 1033px;
+}
+.header__nav_menu_payment {
+    width: 48px;
+    left: 1127px;
+}
+.header__nav_menu_garantya {
+    width: 61px;
+    left: 1205px;
+}
+.header__nav_menu_news {
+    width: 57px;
+    left: 1296px;
+}
+.header__nav_menu_jurnal {
+    width: 52px;
+    left: 1383px;
+}
+.header__nav_menu_shop {
+    width: 76px;
+    left: 1465px;
+}
+.header__nav_menu_contacts {
+    width: 66px;
+    left: 1571px;
+}
+/*The end HEADER__NAV block*/
+
+/*beginning HEADER__LOGO block*/
+
+.header__logo_avatar {
+    width: 1354px;
+    height: 83px;
+    margin-top: 20px;
+    margin-left: 283px;
+}
+.header__logo_avatarImg img {
+    width: 66px;
+    height: 66px;
+}
+.header__logo_netshop_h2 {
+    width: 99px;
+    height: 28px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 28px;
+    left: 88px;
+    color: #0F2438;
+}
+.header__logo_netshop_text {
+    width: 168px;
+    height: 28px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 14px;
+    left: 88px;
+    bottom: 22px;
+    color: #0F2438;
+}
+.header__logo_clock {
+    width: 31px;
+    height: 31px;
+    top: 21px;
+    left: 346px;
+}
+.header__logo_clock_vector {
+    width: 11.43px;
+    height: 11.43px;
+    top: 18px;
+    left: 351px;
+}
+.header__logo_timework_days {
+    width: 216px;
+    height: 40px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    top: 18px;
+    left: 381px;
+    color: #0F2438;
+}
+.header__logo_geo img {
+    width: 22.5px;
+    height: 32px;
+}
+.header__logo_geo2 img {
+    width: 11.25px;
+    height: 11.25px;
+}
+.header__logo_geo {
+    top: 18px;
+    left: 702px;
+}
+.header__logo_geo2 {
+    top: 15px;
+    left: 707px;
+}
+.header__logo_street {
+    width: 127px;
+    height: 16px;
+    left: 734px;
+    top: 25px;
+    color: #0F2438;
+}
+.header__logo_whatsApp {
+    width: 204px;
+    height: 30px;
+    background: #E1EFD0;
+    border-radius: 2px;
+    top: 20px;
+    left: 923px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 30px;
+    text-align: right;
+    color: #000000;
+    padding-right: 25px;
+}
+.header__logo_whatsApp img {
+    padding-right: 10px;
+}
+.header__logo_whatsApp2 {
+    top: 21px;
+    left: 944px;
+}
+.header__logo_connection_nomberPhone {
+    width: 157px;
+    height: 23px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #0F2438;
+    text-align: right;
+    right: 0;
+    top: 15px;
+}
+.header__logo_connection_feedback {
+    width: 130px;
+    height: 14px;
+    top: 40px;
+    right: 0;
+    text-align: right;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration-line: underline;
+    color: #0F2438;
+    opacity: 0.7;
+}
+
+/*The end HEADER__LOGO block*/
+
+
