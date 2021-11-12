@@ -25,11 +25,11 @@
 // 4. Створити 3 змінних firstName, middleName, lastName, наповнити їх своїм ПІБ.
 //   З'єднати їх в одну змінну person. (Не об'єкт)
 
-// let firstName = "Harin ";
-// let middleName = "Denys ";
-// let lastName = "Volodymyrovych";
-// let person = firstName + middleName + lastName;
-// document.write(person);
+let firstName = "Фамилия ";
+let middleName = "Имя ";
+let lastName = "Отчество";
+let person = firstName + middleName + lastName;
+document.write(person);
 
 // 5. За допомогою 3х різних prompt() отримати 3 слова які являються вашими
 //   Імям, По-Батькові та роками.
