@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Error</title>
+</head>
+<body>
+Ваше завдання, зробити так, щоб файл відкривався без помилок .
+
+<script>
+    // Ваше завдання, зробити так, щоб файл відкривався без помилок .
+
+    let a = 100;
+    let b = 500;
+    let c = "hello";
+    let d = "okten";
+    const x = 'constant value';
+    {
+        console.log(a);
+        let x = 'new value';   // було     x = 'new value';
+    }                          // змiнну Х перепризначають, але вона СОNST i не може бути змiненою, або можно const змiнити на let
+    b = 'new value';           // було     let b = 'new value'; змiнну b знов декларують, ii щоб перепризначити треба убрати let
+
+    let result = 100 + "y";    // let result = 100 + y; з'являэться нова змiнна, яка не декларована i не iнiцiалiзована, або зробити y стрiнгою
+
+    console.log(result);           // було console(result); маэ бути для виведення result - правильно прописана команда console.log (result)
+
+
+</script>
+</body>
+</html>
