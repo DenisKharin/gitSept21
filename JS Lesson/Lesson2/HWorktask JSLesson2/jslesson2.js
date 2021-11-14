@@ -65,21 +65,29 @@
 
 // let dayNomber = +prompt(`Введiть - порядковий номер дня тижня (1...7)`);
 // switch (dayNomber) {
-//     case 1 : document.write(`У ПОНЕДIЛОК у Вас вводне заняття з JSIntro о 19:45`);
+//     case 1 :
+//         document.write(`У ПОНЕДIЛОК у Вас вводне заняття з JSIntro о 19:45`);
 //         break;
-//     case 2 : document.write(`У ВIВТОРОК i у Вас практика з JS о 18:00`);
+//     case 2 :
+//         document.write(`У ВIВТОРОК i у Вас практика з JS о 18:00`);
 //         break;
-//     case 3 : document.write(`У СЕРЕДУ у Вас наступне заняття з JSLesson1 о 19:45`);
+//     case 3 :
+//         document.write(`У СЕРЕДУ у Вас наступне заняття з JSLesson1 о 19:45`);
 //         break;
-//     case 4 : document.write(`У ЧЕТВЕР у Вас день практики з JS о 12:00`);
+//     case 4 :
+//         document.write(`У ЧЕТВЕР у Вас день практики з JS о 12:00`);
 //         break;
-//     case 5 : document.write(`У П'ЯТНИЦЮ у Вас заняття з JSLesson2 о 19:45`);
+//     case 5 :
+//         document.write(`У П'ЯТНИЦЮ у Вас заняття з JSLesson2 о 19:45`);
 //         break;
-//     case 6 : document.write(`У СУБОТУ заняття з АНГЛIЙСЬКОI о 10:00`);
+//     case 6 :
+//         document.write(`У СУБОТУ заняття з АНГЛIЙСЬКОI о 10:00`);
 //         break;
-//     case 7 : document.write(`У НЕДIЛЮ у Вас вiльний час для пiдтягнення боргiв з ДЗ`);
+//     case 7 :
+//         document.write(`У НЕДIЛЮ у Вас вiльний час для пiдтягнення боргiв з ДЗ`);
 //         break;
-//     default: document.write(`Щось пiшло не так... Таке не можливо!!!`)
+//     default:
+//         document.write(`Щось пiшло не так... Таке не можливо!!!`)
 // }
 
 // 6. Потрібно визначити Високосний рік чи ні. Високосні роки діляться націло на 4.
