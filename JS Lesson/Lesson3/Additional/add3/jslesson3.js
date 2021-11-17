@@ -138,7 +138,7 @@
 //
 // - Дано 2 масиви з рівною кількістю об'єктів.
 // Масиви:
-
+//
 // let usersWithId = [
 //     {id: 1, name: 'vasya', age: 31, status: false},
 //     {id: 2, name: 'petya', age: 30, status: true},
@@ -152,16 +152,17 @@
 //     {user_id: 2, country: 'Poland', city: 'Krakow'},
 //     {user_id: 4, country: 'USA', city: 'Miami'}
 // ];
-// let arrUserCities = [];
+// console.log(usersWithId);
 //
-// for (const useW in usersWithId) {
-//     for (const citiesW in citiesWithId) {
-//         if (useW.id == citiesW.user_id) {
-//             arrUserCities = useW;
+// for (let i = 0; i < usersWithId.length; i++) {
+//     let user = usersWithId[i];
+//     for (const city of citiesWithId) {
+//         if (city.user_id === user.id) {
+//             user.city = city;
 //         }
 //     }
 // }
-// console.log(arrUserCities);
+// console.log(usersWithId);
 
 // З'єднати в один об'єкт користувача та місто з відповідними "id" та "user_id" .
 //     Записати цей об'єкт в новий масив
