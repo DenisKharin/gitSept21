@@ -2,38 +2,38 @@
 //   просто вивдоить його, якщо два аргументи - складає або
 //   конкатенує їх між собою.
 
-function concatArg() {
-    // ПЕРЕРОБЛЕНИЙ
-    if (arguments.length > 1) {
-        let newStr = `${arguments[0]}  ${arguments[1]}`;
-        document.write(newStr);
-    } else {
-        let newStr = arguments[0];
-        document.write(newStr);
-    }
-                             //     ПОМИЛКОВИЙ
-                             //     for (let i = 0; i < arguments.length; i++) {
-                             //     if (i < 1) {
-                             //        let str = `${arguments[i]} `;
-                             //        document.write(str);
-                             //     }
-                             //     if (i > 0) {
-                             //         document.write(`${arguments[i]} `);
-                             //     }
-                             // };
-    return;
-}
-let variable = +prompt(`Введiть кiлькiсть АРГУМЕНТIВ якi ви будете вводити - 1 чи 2`);
-if (variable === 1) {
-    let arg = prompt(`Введiть будь яке "стрiнгове" значенння`);
-    concatArg(arg);
-} else if (variable === 2) {
-    let arg = prompt(`Введiть 1-е будь яке "стрiнгове" значенння`);
-    let arg2 = prompt(`Введiть 2-е будь яке "стрiнгове" значенння`);
-    concatArg(arg, arg2);
-} else if (variable !== 1 || variable !== 2) {
-    document.write(`Вибачте!!! Але щось пiшло не так...`);
-}
+// function concatArg() {
+//     // ПЕРЕРОБЛЕНИЙ
+//     if (arguments.length > 1) {
+//         let newStr = `${arguments[0]}  ${arguments[1]}`;
+//         document.write(newStr);
+//     } else {
+//         let newStr = arguments[0];
+//         document.write(newStr);
+//     }
+//                            //    ПОМИЛКОВИЙ
+                              //    for (let i = 0; i < arguments.length; i++) {
+                              //    if (i < 1) {
+                              //       let str = `${arguments[i]} `;
+                              //       document.write(str);
+                              //    }
+                              //    if (i > 0) {
+                              //        document.write(`${arguments[i]} `);
+                              //    }
+                              //};
+//     return;
+// }
+// let variable = +prompt(`Введiть кiлькiсть АРГУМЕНТIВ якi ви будете вводити - 1 чи 2`);
+// if (variable === 1) {
+//     let arg = prompt(`Введiть будь яке "стрiнгове" значенння`);
+//     concatArg(arg);
+// } else if (variable === 2) {
+//     let arg = prompt(`Введiть 1-е будь яке "стрiнгове" значенння`);
+//     let arg2 = prompt(`Введiть 2-е будь яке "стрiнгове" значенння`);
+//     concatArg(arg, arg2);
+// } else if (variable !== 1 || variable !== 2) {
+//     document.write(`Вибачте!!! Але щось пiшло не так...`);
+// }
 
 // - створити функцію  яка приймає два масиви та скаладає значення
 //   елементів з однаковими індексами  та повертає новий результуючий
