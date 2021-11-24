@@ -81,16 +81,16 @@
 // - створити функцію яка приймає масив примітивних елементів (числа,стрінги,булеві),
 //   та будує для них список
 
-let arrElements = [234125, true, 'OKTEN', 32456, false];
-
-let printListElementsArroy = (arrElements) => {
-    document.write(`<ul>`);
-    for (const index of arrElements) {
-        document.write(`<li>${index}</li>`);
-    }
-    document.write(`</ul>`);
-}
-printListElementsArroy(arrElements);
+// let arrElements = [234125, true, 'OKTEN', 32456, false];
+//
+// let printListElementsArroy = (arrElements) => {
+//     document.write(`<ul>`);
+//     for (const index of arrElements) {
+//         document.write(`<li>${index}</li>`);
+//     }
+//     document.write(`</ul>`);
+// }
+// printListElementsArroy(arrElements);
 
 // - створити функцію яка приймає масив об'єктів з наступними полями id,name,age ,
 //   та виводить їх в документ. Для кожного об'єкту окремий блок.
