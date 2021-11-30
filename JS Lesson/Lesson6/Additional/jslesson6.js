@@ -2,12 +2,26 @@
 //   состоящие из n символов.
 //   document.writeln(cutString('наслаждение',3)) // [нас,лаж,ден,ие]
 
-
-
+// let str = 'наслаждение';
+// let n = 3;
+//
+// let cutString = (str, n) => {
+//     let resetArray = [];
+//     let i = 0;
+//     while (i < str.length) {
+//         resetArray.push(str.substr(i, n)); // було resetArray.push(str.substring(i, n));
+//         i += n;                            //      console.log(str.substring(i, n));
+//     }                                      // i += 3;
+//     return resetArray;
+// }
+// console.log(cutString(str, n));
 
 // 2 Створити функцію-валідатор для адрес електронної пошти. Перевірка повинна включати
-//   в себе :данні до знака равлика(@), наявність равлика, крапку яка знаходиться не
-//   меньше ніж на 2 символ далі після равлика, функція не чутлива до регістру
+//   в себе :
+//   данні до знака равлика(@),
+//   наявність равлика,
+//   крапку яка знаходиться не меньше ніж на 2 символ далі після равлика,
+//   функція не чутлива до регістру
 //   (some@email.com,SOME@EMAIL.COM,some@EMAIL.com, і тд - однакові значення)
 //   Протестувати на значеннях
 //   someemail@gmail.com
@@ -18,7 +32,24 @@
 //   Примітка
 //   Для тих, хто дуже розумний, та почне використовувати регулярні вирази одразу "ні".
 //   Своїм мозком подумайте над протоколом, з регулярками будете потім бавитись.
-//
+
+// let mail1 = 'someemail@gmail.com';
+// let mail2 = 'someeMAIL@gmail.com';
+// let mail3 = 'someeMAIL@i.ua';
+// let mail4 = 'some.email@gmail.com';
+// let validateEmail = (str) => {
+//         if (str.endsWith('.com') === true || str.endsWith('.ua') === true && str.includes('@gmail') || str.includes('@i')){
+//             document.write(`<div>${str} - this email is valid</div>`);
+//         } else {
+//             document.write(`<div>${str} - this email is not valid</div>`);
+//         }
+// }
+// validateEmail(mail1);
+// validateEmail(mail2);
+// validateEmail(mail3);
+// validateEmail(mail4);
+
+
 // 3 є масив
 //   let coursesArray = [
 //     {
@@ -89,9 +120,83 @@
 //         modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'react', 'angular', 'aws', 'docker', 'git', 'sass']
 //     }
 // ];
-//
-//
-//   відсортувати його в спадаючому порядку за кількістю елементів в полі modules
+//   відсортувати його в спадаючому порядку за кількістю елементів в полі
+//   modules
+
+
+  let coursesArray = [
+    {
+        title: 'JavaScript Complex',
+        monthDuration: 5,
+        hourDuration: 909,
+        modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'react', 'angular', 'aws', 'docker', 'git', 'node.js']
+    },
+    {
+        title: 'Java Complex',
+        monthDuration: 6,
+        hourDuration: 909,
+        modules: ['html',
+            'css',
+            'js',
+            'mysql',
+            'mongodb',
+            'angular',
+            'aws',
+            'docker',
+            'git',
+            'java core',
+            'java advanced']
+    },
+    {
+        title: 'Python Complex',
+        monthDuration: 6,
+        hourDuration: 909,
+        modules: ['html',
+            'css',
+            'js',
+            'mysql',
+            'mongodb',
+            'angular',
+            'aws',
+            'docker',
+            'python core',
+            'python advanced']
+    },
+    {
+        title: 'QA Complex',
+        monthDuration: 4,
+        hourDuration: 909,
+        modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'git', 'QA/QC']
+    },
+    {
+        title: 'FullStack',
+        monthDuration: 7,
+        hourDuration: 909,
+        modules: ['html',
+            'css',
+            'js',
+            'mysql',
+            'mongodb',
+            'react',
+            'angular',
+            'aws',
+            'docker',
+            'git',
+            'node.js',
+            'python',
+            'java']
+    },
+    {
+        title: 'Frontend',
+        monthDuration: 4,
+        hourDuration: 909,
+        modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'react', 'angular', 'aws', 'docker', 'git', 'sass']
+    }
+];
+// let sort = coursesArray.sort((a, b) => {
+//     return b.modules.length - a.modules.length
+// });
+// console.log(sort);
 
 
 
@@ -105,6 +210,7 @@
 // let symb = prompt(`Введiть лiтеру, яку треба порахувати:`);
 //
 // let count = (str, symb) => {
+//     console.log(str);
 //     let arrayStr = str.split(' ').join('');
 //     console.log(arrayStr);
 //     let variable = 0;
