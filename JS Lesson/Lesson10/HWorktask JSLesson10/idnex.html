@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HWorktask JSLesson10</title>
+
+    <style>
+
+<!--        button {-->
+<!--            height: 100px;-->
+<!--        }-->
+<!--        .cleaner {-->
+<!--            transition: 1s;-->
+<!--            display: block;-->
+<!--            height: 0;-->
+<!--            width: 10px;-->
+<!--            overflow: hidden;-->
+<!--        }-->
+
+        .menu {
+            width: 150px;
+            background: #a5cfe0;
+            min-height: 20px;
+        }
+        li {
+            height: 18px;
+            transition: 1s;
+        }
+        .close {
+            height: 0;
+            overflow: hidden;
+        }
+        .body-comment {
+            transition: 1s;
+            height: 25px;
+        }
+        .close-comment {
+            transition: 1s;
+            height: 0;
+            overflow: hidden;
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+<!--1 i 2 task-->
+<div id="text">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, minus.
+</div>
+<button id="btn" class="cleaner">click me - I will cleanse</button>
+
+<div><hr>next task<hr></div>
+
+<!--3 task-->
+<form name="ages">
+    <input type="number" name="userAge">
+    <button>examination</button>
+</form>
+
+<div><hr>next task<hr></div>
+
+<!--4 task-->
+<ul class="menu">
+    <li>first item</li>
+    <li>second item</li>
+    <li>third item</li>
+    <li>fourth item</li>
+    <li>fifth item</li>
+</ul>
+
+<div><hr>next task<hr></div>
+
+<!--5 task-->
+
+
+
+<script>
+
+    // 1 Создать произвольный елемент с id = text.  Используя JavaScript,
+    //   сделайте так, чтобы при клике на кнопку исчезал элемент с id="text".
+
+    // 1-варiант
+    // let btn = document.getElementById('btn');
+    // btn.onclick = function () {
+    //     let text = document.getElementById('text');
+    //     text.style.display = 'none';
+    //     console.log(btn);
+    // }
+    // 2-варiант з поверненням тексту
+    // let btn = document.getElementById('btn');
+    // let clicker = true;
+    // btn.onclick = function () {
+    //     if (clicker) {
+    //         let text = document.getElementById('text');
+    //         text.style.display = 'none';
+    //     } else {
+    //         let text = document.getElementById('text');
+    //         text.style.display = 'block';
+    //     }
+    //     clicker = false;
+    // }
+
+    // 2 Создайте кнопку, при клике на которую, она будет скрывать сама себя.
+
+    // 1-варiант з елементом STYLE в HEAD-рi;
+    // let button = document.getElementById('btn');
+    // button.onclick = function () {
+    //     this.classList.toggle('cleaner');
+    // }
+    // 2-варiант без елемента STYLE в HEAD-рi;
+    // let button = document.getElementById('btn');
+    // button.onclick = function () {
+    //     button.style.display = 'none';
+    // }
+
+    // 3 створити інпут який приймає вік людини та кнопку яка підтверджує дію.
+    //   При натисканні на кнопку зчитати інформацію з інпуту та перевірити вік
+    //   чи меньше він ніж 18, та повідомити про це користувача
+
+    // let form = document.forms.ages;
+    // form.onsubmit = function (e) {
+    //     e.preventDefault();
+    //     if (+this.userAge.value < 18) {
+    //         alert(`Вибачте! Але далi - ще зарано!!!`);
+    //     } else {
+    //         alert(`Вiтаэмо Вас! Ми продовжуэмо...`);
+    //     }
+    // }
+
+
+    // 4 Создайте меню, которое раскрывается/сворачивается при клике
+
+    // let menu = document.getElementsByClassName('menu')[0];
+    // menu.onclick = function () {
+    //     for (let child of this.children) {
+    //         child.classList.toggle('close');
+    //     }
+    //     // this.classList.toggle('close');          // або так
+    // }
+
+
+    // 5 Создать список комментариев , пример объекта
+    //   коментария - {title : 'lorem', body:'lorem ipsum dolo sit ameti'}.
+    //   Вывести список комментариев в документ, каждый в своем блоке.
+    //   Добавьте каждому комментарию по кнопке для сворачивания его body.
+
+    // let comments = [
+    //     {title : 'lorem', body:'lorem ipsum dolo sit ameti'},
+    //     {title : 'lorem', body:'lorem ipsum dolo sit ameti'},
+    //     {title : 'lorem', body:'lorem ipsum dolo sit ameti'},
+    //     {title : 'lorem', body:'lorem ipsum dolo sit ameti'},
+    //     {title : 'lorem', body:'lorem ipsum dolo sit ameti'}
+    // ];
+    // for (const comment of comments) {
+    //     let commentDiv = document.createElement('div');
+    //     commentDiv.classList.add('comment');
+    //     let title = document.createElement('h2');
+    //     title.innerText = comment.title;
+    //     let bodyComment = document.createElement('div');
+    //     bodyComment.innerText = comment.body;
+    //     bodyComment.classList.add('body-comment');
+    //     let button = document.createElement('button');
+    //     button.innerText = 'up/close comment';
+    //     button.onclick = function () {
+    //         bodyComment.classList.toggle('close-comment');
+    //     }
+    //
+    //     commentDiv.append(title, bodyComment, button);
+    //     document.body.appendChild(commentDiv);
+    // }
+
+</script>
+
+</body>
+</html>
