@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CWorktask JSLesson10</title>
+
+    <style>
+
+    </style>
+
+</head>
+<body>
+
+<!--1 task-->
+<!--<form name="form1">-->
+<!--    <input type="text" name="inp1">-->
+<!--    <input type="text" name="inp2">-->
+<!--</form>-->
+<!--<br>-->
+<!--<form name="form2">-->
+<!--    <input type="text" name="inp3">-->
+<!--    <input type="text" name="inp4">-->
+<!--</form>-->
+<!--<br>-->
+<!--<button id="button">enter in console</button>-->
+
+
+<div><hr>next task<hr></div>
+<!--2 task-->
+<!--<form name="createTab">-->
+<!--    <input type="number" name="rows"><br>-->
+<!--    <input type="number" name="columns"><br>-->
+<!--    <input type="text" name="content"><br>-->
+<!--    <button class="create">progress creating</button>-->
+<!--</form>-->
+
+
+<div><hr>next task<hr></div>
+<!--3 i 4 task-->
+<input id="examination" type="text">
+<button id="button">examination on by bad words</button>
+
+
+<script>
+
+    // 1 створити 2 форми  по 2 інпути в кожній. ствоирити кнопку при кліку на
+    //   яку считується та виводиться на консоль інформація з цих 2х форм.
+    //     Кнопка повинна лежати за межами форм (Щоб уникнути  перезавантаження
+    //     сторінки)
+    //     Доступ до інпутів через Forms API. Отже дайте формі та інпутам
+    //     всі необхідні атрибути.
+
+    // let button = document.getElementById('button');
+    // button.onclick = function () {
+    //     let inp1 = document.form1.inp1.value;
+    //     let inp2 = document.form1.inp2.value;
+    //     let inp3 = document.form2.inp3.value;
+    //     let inp4 = document.form2.inp4.value;
+    //     console.log(inp1);
+    //     console.log(inp2);
+    //     console.log(inp3);
+    //     console.log(inp4);
+    // }
+
+
+    // 2 Створити 3 инпута та кнопку. Один визначає кількість рядків, другий - кількість ячеєк, третій вмиіст ячеєк.
+    //     При натисканні кнопки, вся ця інформація зчитується і формується табличка, з відповідним вмістом.
+    // (Додатковачастина для завдання)
+
+    // let form = document.forms['createTab'];
+    // form.onsubmit = function (e) {
+    //     e.preventDefault();
+    //     let rows = +form.rows.value;
+    //     let columns = +form.columns.value;
+    //     let content = form.content.value;
+    //     console.log(rows);
+    //     console.log(columns);
+    //     console.log(content);
+    //
+    //     let table = document.createElement('table');
+    //     for (let i = 0; i < rows; i++) {
+    //         let tr = document.createElement('tr');
+    //         for (let j = 0; j < columns; j++) {
+    //             let td = document.createElement('td');
+    //             td.innerText = content;
+    //             tr.appendChild(td);
+    //         }
+    //         table.appendChild(tr);
+    //     }
+    //     document.body.appendChild(table);
+    // }
+
+
+    // 3 Сворити масив не цензцрних слів.
+    //     Сворити інпут текстового типу.
+    //     Якщо людина вводить слово і воно міститься в масиві не цензурних слів
+    //     кинути алерт з попередженням.
+    //     Перевірку робити при натисканні на кнопку
+
+    // let arrayBadWords = ['фраер', 'овца', 'мерин'];
+    //
+    // let btn = document.getElementById('button');
+    // btn.onclick = function () {
+    //     let word = document.getElementById('examination').value;
+    //     for (const badWord of arrayBadWords) {
+    //         if (badWord === word) {
+    //             alert('WARNING!!! THIS IS BAD WORD!');
+    //         }
+    //     }
+    // };
+
+
+    // 4 Сворити масив не цензцрних слів.
+    //     Сворити інпут текстового типу.
+    //     Потрібно перевіряти чи не містить ціле речення в собі погані слова.
+    //     Кинути алерт з попередженням у випадку якщо містить.
+    //     Перевірку робити при натисканні на кнопку
+
+
+    // let arrayBadWords = ['фраер', 'овца', 'мерин'];
+    //
+    // let btn = document.getElementById('button');
+    // btn.onclick = function () {
+    //     let word = document.getElementById('examination').value;
+    //     for (const badWord of arrayBadWords) {
+    //         if (word.includes(badWord)) {
+    //             alert('WARNING!!! you used a bad word!');
+    //         }
+    //     }
+    // }
+
+</script>
+
+</body>
+</html>
